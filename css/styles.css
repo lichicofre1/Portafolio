@@ -129,7 +129,7 @@ header {
 
 .textosobremi {
     font-size: 1.6rem;
-    margin: 0 0 0 0;
+    margin: 0 0 0 2.5rem;
 }
 
 .textosobremi2 {
@@ -189,6 +189,16 @@ header {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+
+.botonprojectss {
+    transition: 0.8s;
+}
+
+.botonprojectss:hover {
+    transition: 0.8s;
+    color: #140896;
+    font-size: 1.2rem;
 }
 
 
