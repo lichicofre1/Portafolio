@@ -81,7 +81,7 @@ header {
     transition: 0.8s;
 }
 
-@media (max-width: 1327px) {
+@media (max-width: 1199px) {
     .seccionInicio {
         font-size: 8rem;
         justify-content: space-between;
@@ -92,7 +92,7 @@ header {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     .seccionInicio {
         font-size: 8rem;
         justify-content: space-between;
