@@ -47,6 +47,13 @@ a {
 
 /*HEADER*/
 
+@media (max-width: 1000px) {
+    .distancia {
+        padding: 1.2rem 2rem 1.2rem 2rem;
+        font-size: 2.5rem;
+    }
+}
+
 header a img {
     width: 160px;
     padding-left: 0.5rem;
@@ -72,6 +79,28 @@ header {
     line-height: 12rem;
     margin-top: none;
     transition: 0.8s;
+}
+
+@media (max-width: 1327px) {
+    .seccionInicio {
+        font-size: 8rem;
+        justify-content: space-between;
+        margin-left: 20rem;
+        line-height: 12rem;
+        margin-top: none;
+        transition: 0.8s;
+    }
+}
+
+@media (max-width: 1000px) {
+    .seccionInicio {
+        font-size: 8rem;
+        justify-content: space-between;
+        margin-left: 15rem;
+        line-height: 12rem;
+        margin-top: none;
+        transition: 0.8s;
+    }
 }
 
 .seccionInicio:hover {
@@ -102,6 +131,20 @@ header {
     text-decoration: underline;
 }
 
+@media (max-width: 1310px) {
+    .distancia {
+        padding: 1.2rem 10rem 1.2rem 2rem;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1070px) {
+    .distancia {
+        padding: 1.2rem 2rem 1.2rem 2rem;
+        font-size: 2.5rem;
+    }
+}
+
 
 /* N A V E G A C I O N */
 
@@ -112,6 +155,20 @@ header {
 .nav {
     padding: 2rem 2rem;
     font-size: 1.7rem;
+}
+
+@media (max-width: 1327px) {
+    .nav {
+        padding: 1.5rem 1.5rem;
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 1070px) {
+    .nav {
+        padding: 1rem 1rem;
+        font-size: 1.7rem;
+    }
 }
 
 .nav:hover {
